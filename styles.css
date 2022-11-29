@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+
+.center {
+    @apply flex items-center justify-center;
+}
+
+.circle {
+    @apply bg-circle w-11 py-3 text-center rounded-full hover:bg-darkGrey cursor-pointer hover:text-white ;
+}
+
+@tailwind utilities;
+
+body {
+    font: Overpass;
+}
