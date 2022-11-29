@@ -33,9 +33,13 @@
           src="images/icon-star.svg"
           alt="star"
         />
-        <h1 class="text-white text-2xl font-medium mt-4 mb-1 ">How did we do?</h1>
+        <h1 class="text-white text-2xl font-medium mt-4 mb-1">
+          How did we do?
+        </h1>
 
-        <p class="text-darkGrey opacity text-sm lg:text-xs mb-5 leading-6 lg:leading-5 pr-4">
+        <p
+          class="text-darkGrey opacity text-sm lg:text-xs mb-5 leading-6 lg:leading-5 pr-4"
+        >
           Please let us know how we did with your support request. All feedback
           is appreciated to help us improve our offering!
         </p>
@@ -43,29 +47,27 @@
 
       <div class="px-4">
         <div class="flex text-sm text-darkGrey my-7 place-content-around">
+          <button class="circle">1</button>
           <button class="circle">
-            1
-          </button>
-          <ul class="circle">
             2
-          </ul>
-          <ul class="circle">
+          </button>
+          <button class="circle">
             3
-          </ul>
-          <ul class="circle">
+          </button>
+          <button class="circle">
             4
-          </ul>
-          <ul class="circle">
+          </button>
+          <button class="circle">
             5
-          </ul>
+          </button>
         </div>
       </div>
       <div class="center">
         <button
-        class="w-72 tracking-widest rounded-3xl bg-orange h-12 text-sm font-bold lg:h-9  lg:text-xs text-white hover:bg-white hover:text-orange"
-      >
-        SUBMIT
-      </button>
+          class="w-72 tracking-widest rounded-3xl bg-orange h-12 text-sm font-bold lg:h-9 lg:text-xs text-white hover:bg-white hover:text-orange focus:bg-white focus:text-orange"
+        >
+          SUBMIT
+        </button>
       </div>
     </div>
 
@@ -73,15 +75,26 @@
 
     <!-- Thank you state start -->
 
-    <!-- You selected Add rating here out of 5
+    <div 
+    class="hidden bg-gradient-to-b h-screen from-[#202731] to-[#171E28] from-current h-fit w-[21rem] py-12  shadow-2xl rounded-2xl lg:rounded-3xl flex-col center">
+    <img class="w-2/5" src="images/illustration-thank-you.svg" alt="Thank" />
+      <p 
+      class="text-xs rounded-2xl bg-circle py-[0.3rem] px-4 drop-shadow-sm text-orange my-7"
+      >You selected 4 out of 5</p>
 
-  Thank you!
+      <h1 class="text-white text-2xl font-medium mb-2">Thank you!</h1>
 
-  We appreciate you taking the time to give a rating. If you ever need more support, 
-  don’t hesitate to get in touch!
+      <p
+      class="text-darkGrey text-center px-5 text-sm lg:text-xs leading-6 lg:leading-5 "
+      >
+        We appreciate you taking the time to give a rating. <br>
+        If you ever need
+        more support, don’t hesitate to <br> get in touch!
+      </p>
+    </div>
 
-  Thank you state end -->
+    <!-- Thank you state end -->
 
-  <script src="script.js"></script>
+    <script src="script.js"></script>
   </body>
 </html>

@@ -6,7 +6,7 @@
 }
 
 .circle {
-    @apply bg-circle w-11 py-3 text-center rounded-full hover:bg-darkGrey cursor-pointer hover:text-white ;
+    @apply bg-circle w-11 py-3 text-center rounded-full focus:bg-darkGrey cursor-pointer hover:bg-orange hover:text-white focus-within:text-white ;
 }
 
 @tailwind utilities;
